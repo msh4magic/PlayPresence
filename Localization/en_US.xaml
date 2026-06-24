@@ -1,0 +1,156 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Tabs -->
+    <sys:String x:Key="LOCPlayPresence_TabGeneral">General</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabDiscord">Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabAppearance">Appearance</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabImages">Images</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabIgdb">IGDB</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabPerformance">Performance</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabDiagnostics">Diagnostics</sys:String>
+
+    <!-- First-run -->
+    <sys:String x:Key="LOCPlayPresence_FirstRunTitle">Getting started</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FirstRunIntro">Two quick steps and you're done. Both are free.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StepDiscordDone">Discord Application ID â set â</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StepDiscordTodo">Discord Application ID â paste it in the Discord tab</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StepIgdbDone">IGDB credentials â set â</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StepIgdbTodo">IGDB Client ID + Secret â paste them in the IGDB tab</sys:String>
+    <sys:String x:Key="LOCPlayPresence_OpenDiscordPortal">Open Discord Developer Portal</sys:String>
+    <sys:String x:Key="LOCPlayPresence_OpenIgdbPortal">Open Twitch Developer Console (IGDB)</sys:String>
+
+    <!-- Live preview -->
+    <sys:String x:Key="LOCPlayPresence_PreviewHeader">Live preview</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PreviewElapsed">12:34 elapsed</sys:String>
+
+    <!-- General -->
+    <sys:String x:Key="LOCPlayPresence_GeneralHeader">General settings</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableRichPresence">Enable Discord Rich Presence</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowDesktop">Show in Desktop mode</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowFullscreen">Show in Fullscreen mode</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowSourceContext">Show launcher / emulator instead of platform</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableIdle">Show idle status when no game is running</sys:String>
+    <sys:String x:Key="LOCPlayPresence_IdleText">Idle status text</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PrivacyHeader">Privacy</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PrivateMode">Private mode (hide my status completely)</sys:String>
+
+    <!-- Discord -->
+    <sys:String x:Key="LOCPlayPresence_DiscordHeader">Discord settings</sys:String>
+    <sys:String x:Key="LOCPlayPresence_AppId">Discord Application ID</sys:String>
+    <sys:String x:Key="LOCPlayPresence_AppIdHint">Leave empty to use the built-in app (if the developer provided one), or paste your own Discord Application ID.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowTimer">Show session timer (elapsed time)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowIgdbButton">Show a "View on IGDB" button</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableCustomButton">Enable a custom button</sys:String>
+    <sys:String x:Key="LOCPlayPresence_CustomButtonLabel">Custom button text</sys:String>
+    <sys:String x:Key="LOCPlayPresence_CustomButtonUrl">Custom button URL</sys:String>
+
+    <!-- Appearance -->
+    <sys:String x:Key="LOCPlayPresence_TemplatesHeader">Text templates</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TokensHint">Available tokens: {game} {platform} {developer} {genre} {year} {source} {emulator} {disc}</sys:String>
+    <sys:String x:Key="LOCPlayPresence_DetailsTemplate">First line (Details)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StateTemplate">Second line (State)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LargeImageText">Large image text</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldsHeader">Displayed fields</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldPlatform">Platform</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldDeveloper">Developer</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldGenre">Genre</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldYear">Release year</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldSource">Source (Library)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldEmulator">Emulator</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldDisc">Disc number</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldFavorite">Favorite</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldStatus">Completion status</sys:String>
+
+    <!-- Images -->
+    <sys:String x:Key="LOCPlayPresence_ImagesHeader">Image quality &amp; source</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LargeImageSource">Large image source</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LargeImageSourceHint">"Icon" needs SteamGridDB enabled (square game icons). Cover/Artwork come from IGDB.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ImageQuality">Image quality</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SmallImageEnabled">Show platform logo as the small image</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SteamGridHeader">SteamGridDB (square game icons)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableSteamGrid">Use SteamGridDB for art</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PreferSteamGrid">Prefer SteamGridDB over the IGDB cover</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SteamGridKey">SteamGridDB API key</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SteamGridKeyHint">Optional: a built-in key already works in the background. Paste your own SteamGridDB key only if you want your own rate limit. Stored encrypted.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_GoogleHeader">Google image fallback (last resort)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableGoogle">Use Google image search as a final fallback</sys:String>
+    <sys:String x:Key="LOCPlayPresence_GoogleApiKey">Google API key</sys:String>
+    <sys:String x:Key="LOCPlayPresence_GoogleCx">Search Engine ID (CX)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_GoogleHint">Last resort only, lower precision. Needs a free Google API key + Programmable Search Engine id (~100 searches/day). Used only for the Icon style when curated sources find nothing.</sys:String>
+
+    <!-- IGDB -->
+    <sys:String x:Key="LOCPlayPresence_IgdbHeader">IGDB credentials</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableIgdb">Enable IGDB metadata</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ClientId">Client ID</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ClientSecret">Client Secret</sys:String>
+    <sys:String x:Key="LOCPlayPresence_IgdbHint">Leave empty to use the built-in keys (if provided), or paste your own free Client ID + Secret from Twitch. Stored encrypted.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MatchingHeader">Matching</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PreferRom">Prefer ROM filename when matching</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MatchThreshold">Match confidence threshold</sys:String>
+
+    <!-- Performance -->
+    <sys:String x:Key="LOCPlayPresence_PerfHeader">Performance &amp; cache</sys:String>
+    <sys:String x:Key="LOCPlayPresence_CacheDays">Cache duration (days)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_CacheHint">0 = always re-fetch. Recommended: 30.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MaxConcurrent">Max concurrent requests (1â4)</sys:String>
+
+    <!-- Diagnostics -->
+    <sys:String x:Key="LOCPlayPresence_ActionsHeader">Actions</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestConnection">Test connection</sys:String>
+    <sys:String x:Key="LOCPlayPresence_Reconnect">Reconnect Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ClearCache">Clear cache</sys:String>
+    <sys:String x:Key="LOCPlayPresence_Export">Export settings</sys:String>
+    <sys:String x:Key="LOCPlayPresence_Import">Import settings</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ResetDefaults">Reset to defaults</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LoggingHeader">Logging</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableDebug">Enable debug logging</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LogVerbosity">Verbosity level</sys:String>
+
+    <!-- Validation -->
+    <sys:String x:Key="LOCPlayPresence_ValAppId">Enter a Discord Application ID to enable Rich Presence.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValAppIdFormat">The Discord Application ID should be a long number (17â20 digits).</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValIgdbCreds">To enable IGDB, enter a Client ID and Client Secret, or disable IGDB.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValThreshold">Match confidence must be between 0.1 and 1.0.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValCache">Cache duration must be between 0 and 365 days.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValConcurrent">Concurrent requests must be between 1 and 4 (IGDB limit).</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValButtonLabel">Enter text for the custom button or disable it.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValButtonUrl">The custom button URL must start with http:// or https://</sys:String>
+
+    <!-- Status / test messages -->
+    <sys:String x:Key="LOCPlayPresence_StatusTesting">Testingâ¦</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusReconnected">Reconnected to Discord.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusCacheCleared">Cache cleared.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusReset">Settings reset to defaults.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusExported">Settings exported (without the IGDB secret, for security).</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusImported">Settings imported.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusImportInvalid">Invalid settings file.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ResetConfirm">Reset all settings to defaults? Your Discord and IGDB credentials will be kept.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestDiscordEmpty">Discord: no Application ID entered.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestDiscordShort">Discord: the ID looks too short â make sure you copied all of it.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestDiscordOk">Discord: ID format looks correct â</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestIgdbDisabled">IGDB: disabled.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestIgdbEmpty">IGDB: Client ID and/or Client Secret not entered.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestIgdbFail">IGDB: could not obtain an access token â check your credentials.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestIgdbOk">IGDB: connected and obtained an access token â</sys:String>
+
+    <!-- Menu items -->
+    <sys:String x:Key="LOCPlayPresence_MenuRefresh">PlayPresence: Refresh Discord metadata</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuSetId">PlayPresence: Set IGDB id manuallyâ¦</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuClearOverride">PlayPresence: Clear manual IGDB id</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuHide">PlayPresence: Hide this game from Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuShow">PlayPresence: Show this game on Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuPrivateOn">PlayPresence: Turn ON private mode</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuPrivateOff">PlayPresence: Turn OFF private mode</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuMainClearCache">PlayPresence: Clear metadata cache</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuMainReconnect">PlayPresence: Reconnect Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SetIdPrompt">Enter the IGDB game id (a number from the game's IGDB page URL):</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SetIdInvalid">That is not a valid IGDB id.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_OverrideApplied">Manual IGDB id saved. It will apply next time the game starts.</sys:String>
+
+    <!-- About / credits -->
+    <sys:String x:Key="LOCPlayPresence_About">PlayPresence — created by MSH</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SupportKofi">Support on Ko-fi ♥</sys:String>
+
+</ResourceDictionary>

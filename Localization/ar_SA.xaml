@@ -1,0 +1,156 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Tabs -->
+    <sys:String x:Key="LOCPlayPresence_TabGeneral">Ø¹Ø§Ù</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabDiscord">Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabAppearance">Ø§ÙÙØ¸ÙØ±</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabImages">Ø§ÙØµÙØ±</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabIgdb">IGDB</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabPerformance">Ø§ÙØ£Ø¯Ø§Ø¡</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TabDiagnostics">Ø§ÙØªØ´Ø®ÙØµ</sys:String>
+
+    <!-- First-run -->
+    <sys:String x:Key="LOCPlayPresence_FirstRunTitle">ÙÙØ¨Ø¯Ø£</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FirstRunIntro">Ø®Ø·ÙØªØ§Ù Ø³Ø±ÙØ¹ØªØ§Ù ÙÙÙ Ø´ÙØ¡ Ø¬Ø§ÙØ². ÙÙØ§ÙÙØ§ ÙØ¬Ø§ÙÙ.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StepDiscordDone">ÙØ¹Ø±ÙÙ ØªØ·Ø¨ÙÙ Discord â ØªÙ â</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StepDiscordTodo">ÙØ¹Ø±ÙÙ ØªØ·Ø¨ÙÙ Discord â Ø§ÙØµÙÙ ÙÙ ØªØ¨ÙÙØ¨ Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StepIgdbDone">Ø¨ÙØ§ÙØ§Øª IGDB â ØªÙ â</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StepIgdbTodo">Client ID + Secret ÙÙ IGDB â Ø§ÙØµÙÙÙØ§ ÙÙ ØªØ¨ÙÙØ¨ IGDB</sys:String>
+    <sys:String x:Key="LOCPlayPresence_OpenDiscordPortal">ÙØªØ­ Discord Developer Portal</sys:String>
+    <sys:String x:Key="LOCPlayPresence_OpenIgdbPortal">ÙØªØ­ Twitch Developer Console (ÙÙ IGDB)</sys:String>
+
+    <!-- Live preview -->
+    <sys:String x:Key="LOCPlayPresence_PreviewHeader">ÙØ¹Ø§ÙÙØ© Ø­ÙÙØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PreviewElapsed">ÙØ¶Ù 12:34</sys:String>
+
+    <!-- General -->
+    <sys:String x:Key="LOCPlayPresence_GeneralHeader">Ø§ÙØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§ÙØ¹Ø§ÙØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableRichPresence">ØªÙØ¹ÙÙ Ø¹Ø±Ø¶ Ø§ÙØ­Ø§ÙØ© Ø¹ÙÙ Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowDesktop">Ø§ÙØ¹Ø±Ø¶ ÙÙ ÙØ¶Ø¹ Ø³Ø·Ø­ Ø§ÙÙÙØªØ¨</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowFullscreen">Ø§ÙØ¹Ø±Ø¶ ÙÙ ÙØ¶Ø¹ ÙÙØ¡ Ø§ÙØ´Ø§Ø´Ø©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowSourceContext">إظهار المتجر / المحاكي بدل المنصّة</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableIdle">Ø¥Ø¸ÙØ§Ø± Ø­Ø§ÙØ© Ø§ÙØ®ÙÙÙ Ø¹ÙØ¯ Ø¹Ø¯Ù ØªØ´ØºÙÙ Ø£Ù ÙØ¹Ø¨Ø©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_IdleText">ÙØµ Ø­Ø§ÙØ© Ø§ÙØ®ÙÙÙ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PrivacyHeader">Ø§ÙØ®ØµÙØµÙØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PrivateMode">Ø§ÙÙØ¶Ø¹ Ø§ÙØ®Ø§Øµ (Ø¥Ø®ÙØ§Ø¡ Ø­Ø§ÙØªÙ ØªÙØ§ÙØ§Ù)</sys:String>
+
+    <!-- Discord -->
+    <sys:String x:Key="LOCPlayPresence_DiscordHeader">Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_AppId">Discord Application ID</sys:String>
+    <sys:String x:Key="LOCPlayPresence_AppIdHint">Ø§ØªØ±ÙÙ ÙØ§Ø±ØºØ§Ù ÙØ§Ø³ØªØ®Ø¯Ø§Ù Ø§ÙØªØ·Ø¨ÙÙ Ø§ÙÙØ¯ÙØ¬ (Ø¥Ù ÙÙØ¬Ø¯)Ø Ø£Ù Ø§ÙØµÙ ÙØ¹Ø±ÙÙ ØªØ·Ø¨ÙÙ Discord Ø§ÙØ®Ø§Øµ Ø¨Ù.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowTimer">Ø¥Ø¸ÙØ§Ø± ÙØ¤ÙÙØª Ø§ÙØ¬ÙØ³Ø© (Ø§ÙÙÙØª Ø§ÙÙÙÙØ¶Ù)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ShowIgdbButton">Ø¥Ø¸ÙØ§Ø± Ø²Ø± Â«View on IGDBÂ»</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableCustomButton">ØªÙØ¹ÙÙ Ø²Ø± ÙØ®ØµÙØµ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_CustomButtonLabel">ÙØµ Ø§ÙØ²Ø± Ø§ÙÙØ®ØµÙØµ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_CustomButtonUrl">Ø±Ø§Ø¨Ø· Ø§ÙØ²Ø± Ø§ÙÙØ®ØµÙØµ</sys:String>
+
+    <!-- Appearance -->
+    <sys:String x:Key="LOCPlayPresence_TemplatesHeader">ÙÙØ§ÙØ¨ Ø§ÙÙØµ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TokensHint">Ø§ÙØ±ÙÙØ² Ø§ÙÙØªØ§Ø­Ø©: {game} {platform} {developer} {genre} {year} {source} {emulator} {disc}</sys:String>
+    <sys:String x:Key="LOCPlayPresence_DetailsTemplate">Ø§ÙØ³Ø·Ø± Ø§ÙØ£ÙÙ (Details)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StateTemplate">Ø§ÙØ³Ø·Ø± Ø§ÙØ«Ø§ÙÙ (State)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LargeImageText">ÙØµ Ø§ÙØµÙØ±Ø© Ø§ÙÙØ¨ÙØ±Ø©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldsHeader">Ø§ÙØ­ÙÙÙ Ø§ÙÙØ¹Ø±ÙØ¶Ø©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldPlatform">Ø§ÙÙÙØµÙØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldDeveloper">Ø§ÙÙØ·ÙÙØ±</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldGenre">Ø§ÙÙÙØ¹</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldYear">Ø³ÙØ© Ø§ÙØ¥ØµØ¯Ø§Ø±</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldSource">Ø§ÙÙØµØ¯Ø± (Ø§ÙÙÙØªØ¨Ø©)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldEmulator">Ø§ÙÙØ­Ø§ÙÙ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldDisc">Ø±ÙÙ Ø§ÙÙØ±Øµ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldFavorite">Ø§ÙÙÙØ¶ÙÙØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_FieldStatus">Ø­Ø§ÙØ© Ø§ÙØ¥ÙÙØ§Ù</sys:String>
+
+    <!-- Images -->
+    <sys:String x:Key="LOCPlayPresence_ImagesHeader">Ø¬ÙØ¯Ø© ÙÙØµØ¯Ø± Ø§ÙØµÙØ±</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LargeImageSource">ÙØµØ¯Ø± Ø§ÙØµÙØ±Ø© Ø§ÙÙØ¨ÙØ±Ø©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LargeImageSourceHint">Ø®ÙØ§Ø± Â«Ø§ÙØ£ÙÙÙÙØ©Â» ÙØªØ·ÙÙØ¨ ØªÙØ¹ÙÙ SteamGridDB (Ø£ÙÙÙÙØ§Øª ÙØ±Ø¨ÙØ¹Ø© ÙÙØ¹Ø¨Ø©). Ø§ÙØºÙØ§Ù/Ø§ÙØµÙØ±Ø© Ø§ÙÙÙÙØ© ØªØ£ØªÙ ÙÙ IGDB.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ImageQuality">Ø¬ÙØ¯Ø© Ø§ÙØµÙØ±Ø©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SmallImageEnabled">Ø¥Ø¸ÙØ§Ø± Ø´Ø¹Ø§Ø± Ø§ÙÙÙØµÙØ© ÙØµÙØ±Ø© ØµØºÙØ±Ø©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SteamGridHeader">SteamGridDB (Ø£ÙÙÙÙØ§Øª ÙØ±Ø¨ÙØ¹Ø© ÙÙØ¹Ø¨Ø©)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableSteamGrid">Ø§Ø³ØªØ®Ø¯Ø§Ù SteamGridDB ÙÙØµÙØ±</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PreferSteamGrid">ØªÙØ¶ÙÙ SteamGridDB Ø¹ÙÙ ØºÙØ§Ù IGDB</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SteamGridKey">ÙÙØªØ§Ø­ SteamGridDB API</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SteamGridKeyHint">Ø§Ø®ØªÙØ§Ø±Ù: ÙÙØ¬Ø¯ ÙÙØªØ§Ø­ ÙØ¯ÙØ¬ ÙØ¹ÙÙ ÙÙ Ø§ÙØ®ÙÙÙØ© ØªÙÙØ§Ø¦ÙØ§Ù. Ø§ÙØµÙ ÙÙØªØ§Ø­Ù Ø§ÙØ®Ø§Øµ ÙÙØ· Ø¥Ù Ø£Ø±Ø¯Øª Ø§Ø³ØªØ®Ø¯Ø§Ù Ø­Ø¯Ù Ø§ÙØ·ÙØ¨Ø§Øª Ø§ÙØ®Ø§Øµ Ø¨Ù. ÙÙØ­ÙØ¸ ÙØ´ÙÙØ±Ø§Ù.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_GoogleHeader">Ø¨Ø¯ÙÙ ØµÙØ± Google (ÙÙØ§Ø° Ø£Ø®ÙØ±)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableGoogle">Ø§Ø³ØªØ®Ø¯Ø§Ù Ø¨Ø­Ø« ØµÙØ± Google ÙØ¨Ø¯ÙÙ Ø£Ø®ÙØ±</sys:String>
+    <sys:String x:Key="LOCPlayPresence_GoogleApiKey">ÙÙØªØ§Ø­ Google API</sys:String>
+    <sys:String x:Key="LOCPlayPresence_GoogleCx">ÙØ¹Ø±ÙÙ ÙØ­Ø±ÙÙ Ø§ÙØ¨Ø­Ø« (CX)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_GoogleHint">ÙÙØ§Ø° Ø£Ø®ÙØ± ÙÙØ·Ø ÙØ¯ÙÙØªÙ Ø£ÙÙ. ÙØªØ·ÙÙØ¨ ÙÙØªØ§Ø­ Google API ÙØ¬Ø§ÙÙ + ÙØ¹Ø±ÙÙ ÙØ­Ø±ÙÙ Ø¨Ø­Ø« ÙØ¨Ø±ÙØ¬ (~100 Ø¨Ø­Ø«/ÙÙÙ). ÙÙØ³ØªØ®Ø¯Ù ÙÙØ· ÙØ¹ ÙÙØ· Â«Ø§ÙØ£ÙÙÙÙØ©Â» Ø­ÙÙ ÙØ§ ØªØ¬Ø¯ Ø§ÙÙØµØ§Ø¯Ø± Ø§ÙÙÙØ³ÙÙØ© Ø´ÙØ¦Ø§Ù.</sys:String>
+
+    <!-- IGDB -->
+    <sys:String x:Key="LOCPlayPresence_IgdbHeader">Ø¨ÙØ§ÙØ§Øª Ø§Ø¹ØªÙØ§Ø¯ IGDB</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableIgdb">ØªÙØ¹ÙÙ Ø¬ÙØ¨ Ø§ÙØ¨ÙØ§ÙØ§Øª ÙÙ IGDB</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ClientId">Client ID</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ClientSecret">Client Secret</sys:String>
+    <sys:String x:Key="LOCPlayPresence_IgdbHint">Ø§ØªØ±ÙÙÙØ§ ÙØ§Ø±ØºÙÙ ÙØ§Ø³ØªØ®Ø¯Ø§Ù Ø§ÙÙÙØ§ØªÙØ­ Ø§ÙÙØ¯ÙØ¬Ø© (Ø¥Ù ÙÙØ¬Ø¯Øª)Ø Ø£Ù Ø§ÙØµÙ Client ID Ù Secret Ø§ÙØ®Ø§ØµÙÙÙ Ø¨Ù ÙÙ Twitch. ØªÙØ­ÙØ¸ ÙØ´ÙÙØ±Ø©.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MatchingHeader">Ø§ÙÙØ·Ø§Ø¨ÙØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_PreferRom">ØªÙØ¶ÙÙ Ø§Ø³Ù ÙÙÙ ROM ÙÙ Ø§ÙÙØ·Ø§Ø¨ÙØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MatchThreshold">Ø­Ø¯ Ø§ÙØ«ÙØ© ÙÙ Ø§ÙÙØ·Ø§Ø¨ÙØ©</sys:String>
+
+    <!-- Performance -->
+    <sys:String x:Key="LOCPlayPresence_PerfHeader">Ø§ÙØ£Ø¯Ø§Ø¡ ÙØ§ÙØªØ®Ø²ÙÙ Ø§ÙÙØ¤ÙØª</sys:String>
+    <sys:String x:Key="LOCPlayPresence_CacheDays">ÙØ¯Ø© Ø§ÙØªØ®Ø²ÙÙ Ø§ÙÙØ¤ÙØª (Ø£ÙØ§Ù)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_CacheHint">0 = Ø¥Ø¹Ø§Ø¯Ø© Ø§ÙØ¬ÙØ¨ ÙÙ ÙÙ ÙØ±ÙØ©. Ø§ÙÙÙØµÙ Ø¨Ù: 30.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MaxConcurrent">Ø£ÙØµÙ Ø¹Ø¯Ø¯ Ø·ÙØ¨Ø§Øª ÙØªØ²Ø§ÙÙØ© (1â4)</sys:String>
+
+    <!-- Diagnostics -->
+    <sys:String x:Key="LOCPlayPresence_ActionsHeader">Ø§ÙØ¥Ø¬Ø±Ø§Ø¡Ø§Øª</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestConnection">Ø§Ø®ØªØ¨Ø§Ø± Ø§ÙØ§ØªØµØ§Ù</sys:String>
+    <sys:String x:Key="LOCPlayPresence_Reconnect">Ø¥Ø¹Ø§Ø¯Ø© Ø§ÙØ§ØªØµØ§Ù Ø¨Ù Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ClearCache">ÙØ³Ø­ Ø§ÙØ°Ø§ÙØ±Ø© Ø§ÙÙØ¤ÙØªØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_Export">ØªØµØ¯ÙØ± Ø§ÙØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª</sys:String>
+    <sys:String x:Key="LOCPlayPresence_Import">Ø§Ø³ØªÙØ±Ø§Ø¯ Ø§ÙØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ResetDefaults">Ø¥Ø¹Ø§Ø¯Ø© Ø§ÙØ¶Ø¨Ø· Ø§ÙØ§ÙØªØ±Ø§Ø¶Ù</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LoggingHeader">Ø§ÙØ³Ø¬ÙÙ (Logging)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_EnableDebug">ØªÙØ¹ÙÙ Ø³Ø¬ÙÙ Ø§ÙØªØµØ­ÙØ­ (Debug)</sys:String>
+    <sys:String x:Key="LOCPlayPresence_LogVerbosity">ÙØ³ØªÙÙ Ø§ÙØªÙØµÙÙ</sys:String>
+
+    <!-- Validation -->
+    <sys:String x:Key="LOCPlayPresence_ValAppId">Ø£Ø¯Ø®Ù Discord Application ID ÙØªÙØ¹ÙÙ Ø¹Ø±Ø¶ Ø§ÙØ­Ø§ÙØ©.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValAppIdFormat">Discord Application ID ÙØ¬Ø¨ Ø£Ù ÙÙÙÙ Ø±ÙÙØ§Ù Ø·ÙÙÙØ§Ù (17â20 Ø®Ø§ÙØ©).</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValIgdbCreds">ÙØªÙØ¹ÙÙ IGDB Ø£Ø¯Ø®Ù Client ID Ù Client SecretØ Ø£Ù Ø¹Ø·ÙÙ IGDB.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValThreshold">Ø­Ø¯ Ø§ÙØ«ÙØ© ÙÙ Ø§ÙÙØ·Ø§Ø¨ÙØ© ÙØ¬Ø¨ Ø£Ù ÙÙÙÙ Ø¨ÙÙ 0.1 Ù 1.0.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValCache">ÙØ¯Ø© Ø§ÙØªØ®Ø²ÙÙ Ø§ÙÙØ¤ÙØª ÙØ¬Ø¨ Ø£Ù ØªÙÙÙ Ø¨ÙÙ 0 Ù 365 ÙÙÙØ§Ù.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValConcurrent">Ø¹Ø¯Ø¯ Ø§ÙØ·ÙØ¨Ø§Øª Ø§ÙÙØªØ²Ø§ÙÙØ© ÙØ¬Ø¨ Ø£Ù ÙÙÙÙ Ø¨ÙÙ 1 Ù 4 (Ø­Ø¯ IGDB).</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValButtonLabel">Ø£Ø¯Ø®Ù ÙØµØ§Ù ÙÙØ²Ø± Ø§ÙÙØ®ØµÙØµ Ø£Ù Ø¹Ø·ÙÙÙ.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ValButtonUrl">Ø±Ø§Ø¨Ø· Ø§ÙØ²Ø± Ø§ÙÙØ®ØµÙØµ ÙØ¬Ø¨ Ø£Ù ÙØ¨Ø¯Ø£ Ø¨Ù http:// Ø£Ù https://</sys:String>
+
+    <!-- Status / test messages -->
+    <sys:String x:Key="LOCPlayPresence_StatusTesting">Ø¬Ø§Ø±Ù Ø§ÙØ§Ø®ØªØ¨Ø§Ø±â¦</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusReconnected">ØªÙØª Ø¥Ø¹Ø§Ø¯Ø© Ø§ÙØ§ØªØµØ§Ù Ø¨Ù Discord.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusCacheCleared">ØªÙ ÙØ³Ø­ Ø°Ø§ÙØ±Ø© Ø§ÙØªØ®Ø²ÙÙ Ø§ÙÙØ¤ÙØª.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusReset">ØªÙØª Ø¥Ø¹Ø§Ø¯Ø© Ø§ÙØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§ÙØ§ÙØªØ±Ø§Ø¶ÙØ©.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusExported">ØªÙ ØªØµØ¯ÙØ± Ø§ÙØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª (Ø¨Ø¯ÙÙ ÙÙÙØ© Ø³Ø± IGDB ÙØ£Ø³Ø¨Ø§Ø¨ Ø£ÙÙÙØ©).</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusImported">ØªÙ Ø§Ø³ØªÙØ±Ø§Ø¯ Ø§ÙØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_StatusImportInvalid">ÙÙÙ Ø§ÙØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª ØºÙØ± ØµØ§ÙØ­.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_ResetConfirm">Ø¥Ø¹Ø§Ø¯Ø© ÙÙ Ø§ÙØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø¥ÙÙ Ø§ÙÙØ¶Ø¹ Ø§ÙØ§ÙØªØ±Ø§Ø¶ÙØ ÙÙ ØªØªØ£Ø«Ø± Ø¨ÙØ§ÙØ§Øª Ø§Ø¹ØªÙØ§Ø¯ IGDB Ù Discord.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestDiscordEmpty">Discord: ÙÙ ÙØªÙ Ø¥Ø¯Ø®Ø§Ù Application ID.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestDiscordShort">Discord: Ø§ÙÙØ¹Ø±ÙÙ ÙØ¨Ø¯Ù ÙØµÙØ±Ø§Ù Ø¬Ø¯Ø§Ù â ØªØ£ÙÙØ¯ ÙÙ ÙØ³Ø®Ù ÙØ§ÙÙØ§Ù.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestDiscordOk">Discord: ØµÙØºØ© Ø§ÙÙØ¹Ø±ÙÙ ØµØ­ÙØ­Ø© â</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestIgdbDisabled">IGDB: ÙØ¹Ø·ÙÙ.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestIgdbEmpty">IGDB: ÙÙ ÙØªÙ Ø¥Ø¯Ø®Ø§Ù Client ID Ù/Ø£Ù Client Secret.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestIgdbFail">IGDB: ÙØ´Ù Ø§ÙØ­ØµÙÙ Ø¹ÙÙ Ø±ÙØ² Ø§ÙØ¯Ø®ÙÙ â ØªØ­ÙÙÙ ÙÙ Ø§ÙØ¨ÙØ§ÙØ§Øª.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_TestIgdbOk">IGDB: ØªÙ Ø§ÙØ§ØªØµØ§Ù ÙØ§ÙØ­ØµÙÙ Ø¹ÙÙ Ø±ÙØ² Ø§ÙØ¯Ø®ÙÙ Ø¨ÙØ¬Ø§Ø­ â</sys:String>
+
+    <!-- Menu items -->
+    <sys:String x:Key="LOCPlayPresence_MenuRefresh">PlayPresence: ØªØ­Ø¯ÙØ« Ø¨ÙØ§ÙØ§Øª Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuSetId">PlayPresence: ØªØ¹ÙÙÙ ÙØ¹Ø±ÙÙ IGDB ÙØ¯ÙÙØ§Ùâ¦</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuClearOverride">PlayPresence: Ø¥Ø²Ø§ÙØ© Ø§ÙÙØ¹Ø±ÙÙ Ø§ÙÙØ¯ÙÙ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuHide">PlayPresence: Ø¥Ø®ÙØ§Ø¡ ÙØ°Ù Ø§ÙÙØ¹Ø¨Ø© ÙÙ Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuShow">PlayPresence: Ø¥Ø¸ÙØ§Ø± ÙØ°Ù Ø§ÙÙØ¹Ø¨Ø© Ø¹ÙÙ Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuPrivateOn">PlayPresence: ØªØ´ØºÙÙ Ø§ÙÙØ¶Ø¹ Ø§ÙØ®Ø§Øµ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuPrivateOff">PlayPresence: Ø¥ÙÙØ§Ù Ø§ÙÙØ¶Ø¹ Ø§ÙØ®Ø§Øµ</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuMainClearCache">PlayPresence: ÙØ³Ø­ Ø§ÙØ°Ø§ÙØ±Ø© Ø§ÙÙØ¤ÙØªØ©</sys:String>
+    <sys:String x:Key="LOCPlayPresence_MenuMainReconnect">PlayPresence: Ø¥Ø¹Ø§Ø¯Ø© Ø§ÙØ§ØªØµØ§Ù Ø¨Ù Discord</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SetIdPrompt">Ø£Ø¯Ø®Ù ÙØ¹Ø±ÙÙ Ø§ÙÙØ¹Ø¨Ø© ÙÙ IGDB (Ø±ÙÙ ÙÙ Ø±Ø§Ø¨Ø· ØµÙØ­Ø© Ø§ÙÙØ¹Ø¨Ø© Ø¹ÙÙ IGDB):</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SetIdInvalid">ÙØ°Ø§ ÙÙØ³ ÙØ¹Ø±ÙÙ IGDB ØµØ§ÙØ­Ø§Ù.</sys:String>
+    <sys:String x:Key="LOCPlayPresence_OverrideApplied">ØªÙ Ø­ÙØ¸ ÙØ¹Ø±ÙÙ IGDB Ø§ÙÙØ¯ÙÙ. Ø³ÙÙØ·Ø¨ÙÙÙ Ø¹ÙØ¯ ØªØ´ØºÙÙ Ø§ÙÙØ¹Ø¨Ø© Ø§ÙÙØ§Ø¯Ù.</sys:String>
+
+    <!-- About / credits -->
+    <sys:String x:Key="LOCPlayPresence_About">PlayPresence — من تطوير MSH</sys:String>
+    <sys:String x:Key="LOCPlayPresence_SupportKofi">ادعم على Ko-fi ♥</sys:String>
+
+</ResourceDictionary>

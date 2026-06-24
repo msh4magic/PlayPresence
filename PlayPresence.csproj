@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Playnite plugins target .NET Framework 4.6.2 and must stay on C# 7.3. -->
+    <TargetFramework>net462</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <LangVersion>7.3</LangVersion>
+
+    <RootNamespace>PlayPresence</RootNamespace>
+    <AssemblyName>PlayPresence</AssemblyName>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+
+    <!-- We ship our own Properties/AssemblyInfo.cs, so don't auto-generate one. -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <!-- Output goes directly to bin\<Config>\ (no net462 subfolder). -->
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Deterministic>true</Deterministic>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <DebugType>portable</DebugType>
+
+    <!-- We declare data files explicitly below to avoid duplicate-item ambiguity. -->
+    <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
+  </PropertyGroup>
+
+  <!-- Framework assemblies that aren't pulled in automatically. WPF assemblies come from UseWPF. -->
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Security" />
+  </ItemGroup>
+
+  <!-- NuGet packages. PlayniteSDK IS the host (Playnite itself), so it is compile-time only and
+       must NOT be shipped. Newtonsoft.Json IS shipped next to the plugin so it always loads at
+       runtime. Discord Rich Presence is implemented directly over the local IPC pipe (see
+       DiscordPresenceService) with NO external RPC assembly, to avoid the assembly-version clash
+       that occurs when another installed extension ships its own DiscordRPC.dll. -->
+  <ItemGroup>
+    <PackageReference Include="PlayniteSDK" Version="6.11.0">
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <!-- The localization .xaml files are loaded at runtime via XamlReader, so they must NOT be
+       compiled as WPF Page resources. Remove them from the auto Page glob and copy them to output. -->
+  <ItemGroup>
+    <Page Remove="Localization\**\*.xaml" />
+    <None Include="Localization\en_US.xaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Localization\ar_SA.xaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="extension.yaml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
