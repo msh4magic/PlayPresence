@@ -29,15 +29,15 @@
   </ItemGroup>
 
   <!-- NuGet packages. PlayniteSDK IS the host (Playnite itself), so it is compile-time only and
-       must NOT be shipped. Newtonsoft.Json IS shipped next to the plugin so it always loads at
-       runtime. Discord Rich Presence is implemented directly over the local IPC pipe (see
-       DiscordPresenceService) with NO external RPC assembly, to avoid the assembly-version clash
-       that occurs when another installed extension ships its own DiscordRPC.dll. -->
+       must NOT be shipped. JSON is handled via the SDK's built-in Playnite.SDK.Data.Serialization,
+       so there is NO external Newtonsoft.Json reference (Playnite forbids loading a second copy of
+       an assembly it already ships, which is why a bundled Newtonsoft.Json.dll gets stripped and the
+       plugin fails to load). Discord Rich Presence is implemented directly over the local IPC pipe
+       (see DiscordPresenceService) with NO external RPC assembly. -->
   <ItemGroup>
     <PackageReference Include="PlayniteSDK" Version="6.11.0">
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <!-- The localization .xaml files are loaded at runtime via XamlReader, so they must NOT be
