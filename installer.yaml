@@ -6,9 +6,3 @@ Packages:
     PackageUrl: https://github.com/msh4magic/PlayPresence/releases/download/v1.0.0/PlayPresence_c2f4e6a8_1_0_1.pext
     Changelog:
       - Improved title matching accuracy.
-  - Version: 1.0.0
-    RequiredApiVersion: 6.11.0
-    ReleaseDate: 2026-06-25
-    PackageUrl: https://github.com/msh4magic/PlayPresence/releases/download/v1.0.0/PlayPresence_c2f4e6a8_1_0_0.pext
-    Changelog:
-      - First public release
