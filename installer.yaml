@@ -7,7 +7,6 @@ Packages:
     Changelog:
       - More accurate title matching for ROM games
       - New "Prefer Playnite Game Title" option
-      
   - Version: 1.0.2
     RequiredApiVersion: 6.11.0
     ReleaseDate: 2026-06-26
