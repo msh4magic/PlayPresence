@@ -1,5 +1,16 @@
 AddonId: PlayPresence_c2f4e6a8
 Packages:
+  - Version: 1.0.4
+    RequiredApiVersion: 6.11.0
+    ReleaseDate: 2026-06-27
+    PackageUrl: https://github.com/msh4magic/PlayPresence/releases/download/v1.0.0/PlayPresence_c2f4e6a8_1_0_4.pext
+    Changelog:
+      - New game match editor (custom image support)
+      - New IGDB page URL/ID support
+      - New "Custom Image URL" option
+      - New "Hide from Discord" option
+      - New "Display Game Cover Art Instead" option
+      - Fixed "Prefer Playnite Game Title"
   - Version: 1.0.3
     RequiredApiVersion: 6.11.0
     ReleaseDate: 2026-06-26
