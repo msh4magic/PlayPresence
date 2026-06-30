@@ -1,5 +1,11 @@
 AddonId: PlayPresence_c2f4e6a8
 Packages:
+  - Version: 1.0.5
+    RequiredApiVersion: 6.11.0
+    ReleaseDate: 2026-06-30
+    PackageUrl: https://github.com/msh4magic/PlayPresence/releases/download/v1.0.0/PlayPresence_c2f4e6a8_1_0_5.pext
+    Changelog:
+      - Improved stability and reliability
   - Version: 1.0.4
     RequiredApiVersion: 6.11.0
     ReleaseDate: 2026-06-27
@@ -11,25 +17,3 @@ Packages:
       - New "Hide from Discord" option
       - New "Display Game Cover Art Instead" option
       - Fixed "Prefer Playnite Game Title"
-  - Version: 1.0.3
-    RequiredApiVersion: 6.11.0
-    ReleaseDate: 2026-06-26
-    PackageUrl: https://github.com/msh4magic/PlayPresence/releases/download/v1.0.0/PlayPresence_c2f4e6a8_1_0_3.pext
-    Changelog:
-      - More accurate title matching for ROM games
-      - New "Prefer Playnite Game Title" option
-  - Version: 1.0.2
-    RequiredApiVersion: 6.11.0
-    ReleaseDate: 2026-06-26
-    PackageUrl: https://github.com/msh4magic/PlayPresence/releases/download/v1.0.0/PlayPresence_c2f4e6a8_1_0_2.pext
-    Changelog:
-      - New "Show game name as the title" option
-      - New "Show total play time" option
-      - New "Only for emulated games" option
-      - New "Hide platform / launcher" option
-  - Version: 1.0.1
-    RequiredApiVersion: 6.11.0
-    ReleaseDate: 2026-06-26
-    PackageUrl: https://github.com/msh4magic/PlayPresence/releases/download/v1.0.0/PlayPresence_c2f4e6a8_1_0_1.pext
-    Changelog:
-      - Improved title matching accuracy.
